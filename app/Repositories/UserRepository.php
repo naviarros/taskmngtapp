@@ -21,7 +21,7 @@ class UserRepository implements UserInterface
 
     public function getUserById($id)
     {
-        return $this->user->find($id);
+    return $this->user->find($id);
     }
     public function createUser($data)
     {
